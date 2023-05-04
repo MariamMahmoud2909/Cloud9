@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Upload Form</title>
+    <?php include "HeaderSide.php"  ?>
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -25,6 +26,8 @@ body{
   width: 100%;
   background-color: #fff;
   padding: 25px 30px;
+  margin-left: 265px;
+  margin-top: 80px;
   border-radius: 5px;
   box-shadow: 0 50px 100px rgba(0,0,0,0.15);
 }
@@ -168,7 +171,7 @@ margin: 20px auto;
     </style>
   </head>
   <body>
-  
+
       <div class="container">
         <div class="title" style="color: #71b6e6  ;font-size:35px;text-align:left">Upload Video</div>
         <div class="content">
